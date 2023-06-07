@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.body_container {
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
+    padding: 5rem 0;
+}   
+
+.main_header {
+    color: #502050;
+    width: 15rem;
+}
+
+.first-paragraph {
+    color: hsl(303, 10%, 53%);
+    font-size: 14px;
+    line-height: 1.3rem;
+    width: 17.5rem;
+    padding-top: 1.5rem;
+}
+
+.first-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-header {
+    color: #502050;
+}
+
+.star-icon-container {
+   text-align: center;
+   margin: 3rem 0;
+}
+
+.first-star-container, .second-star-container, .third-star-container {
+    background-color:  #f7f2f7;
+    margin: 0 1rem 1rem 1rem;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+
+.first-star-icon, .second-star-icon, .third-star-icon {
+    padding-bottom: 10px;
+}
+
+.client-names, .comments {
+    color: #ffffff;
+}
+
+.verified-buyer {
+    color: #ee68a4;
+    font-size: 13px;
+}
+
+.first-reply-box, .second-reply-box, .third-reply-box {
+    background-color: #502050;
+    margin: 0 1rem 1rem 1rem;
+    padding: 2rem 2rem;
+    border-radius: 5px;
+}
+
+.client-img {
+    border-radius: 5rem;
+    width: 20%;
+}
+
+.client-names {
+    padding-bottom: 5px;
+}
+
+.id-field {
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.sub-field {
+    padding: 5px 0 0 1rem;
+}
+
+.comments {
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+.main_header {
+    width: 20rem;
+}
+
+.first-paragraph {
+    width: 25rem;
+}
+
+.client-img {
+    width: 10%;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.body_container {
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_header {
+   width: 15rem;
+}
+
+.first-paragraph {
+    width: 20rem;
+}
+
+.first-header {
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+}
+
+.first-star-container, .second-star-container, .third-star-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 0 2rem;
+}
+
+.second-star-container {
+    margin-left: 4rem;
+}
+
+.third-star-container {
+    padding-right: 3rem;
+    margin-left: 8rem;
+}
+
+.sub-header {
+    padding-top: 3px;
+    padding-left: 1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.client-img {
+    width: 15%;
+}
+
+.second-reply-box {
+    margin-top: 1rem;
+}
+
+.third-reply-box {
+    margin-top: 2rem;
+}
+
+.comments {
+    width: 16.5rem;
+}
+}
